@@ -20,5 +20,8 @@ module.exports = {
       'migrations',
     ),
   },
+  seeds: {
+    directory: path.resolve(__dirname, 'src', 'shared', 'database', 'seeds'),
+  },
   useNullAsDefault: true,
 }
